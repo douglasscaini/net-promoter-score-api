@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./.github/logo.svg" width="400px"/></h1>
+<h1 align="center"><img src="./.github/logo.png" width=200px"/></h1>
 
 <h3 align="center">Net Promoter Score - NPS</h3>
 
@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> O NPS é uma aplicação que consiste em calcular o Net Promoter Score (métrica que tem como objetivo medir a satisfação e lealdade dos clientes de uma empresa). Nele fazemos o cadastro de usuários e o cadastro de pesquisas. Portanto, um e-mail pode ser enviado ao destinatário para responder à pesquisa de satisfação para realizar os cálculos necessários para obter o NPS.
+> O NPS é uma API que consiste em calcular o Net Promoter Score (métrica que tem como objetivo medir a satisfação e lealdade dos clientes de uma empresa). Nele fazemos o cadastro de usuários e o cadastro de pesquisas. Portanto, um e-mail pode ser enviado ao destinatário para responder à pesquisa de satisfação para realizar os cálculos necessários para obter o NPS.
 
 <br />
 <table>
@@ -34,25 +34,26 @@ $ npm install
 # Iniciar o projeto em localhost:
 $ npm run dev
 
-# Iniciar a migration:
+# Iniciar migrations:
 $ npm run typeorm migration:run
 
-# Criar migration (caso necessário):
-$ npx typeorm migration:create -n CreateUsers
-$ npx typeorm migration:create -n CreateSurveys
+# Realizar testes:
+$ npm run test
 
 ```
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
-> Aprender TypeScript e aprimorar a utilização de recursos de Banco de Dados :D
+> Aprender TypeScript, aprimorar a utilização de Banco de Dados e a realização de testes :D
 
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
+- [Jest](https://jestjs.io/)
+- [SQLite](https://www.npmjs.com/package/sqlite3)
+- [TypeORM](https://typeorm.io/#/)
+- [Express](https://expressjs.com/pt-br/)
 - [TypeScript](https://www.typescriptlang.org/)
-- TypeORM
-- Express
-- SQLite
+- [Ethereal-Email](https://ethereal.email/)
 
 ---
 
