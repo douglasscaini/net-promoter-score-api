@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./.github/logo.png" width=200px"/></h1>
+<h1 align="center"><img src="./.github/logo.png" width=150px"/></h1>
 
 <h3 align="center">Net Promoter Score - NPS</h3>
 
@@ -18,10 +18,10 @@
 <br />
 <table>
   <tr>
-    <td colspan="1">Desktop</td>
+    <td colspan="1">Olha os testes ai :D</td>
   </tr>
   <tr>
-    <td><img src="./.github/gif.gif" width=1000px /></td></td>
+    <td><img src="./.github/img_test.png" width=1000px /></td></td>
   </tr>
 </table>
 
@@ -50,11 +50,11 @@ $ npm run test
 
 - [Jest](https://jestjs.io/)
 - [SQLite](https://www.npmjs.com/package/sqlite3)
-- [TypeORM](https://typeorm.io/#/)
 - [Express](https://expressjs.com/pt-br/)
+- [TypeORM](https://typeorm.io/#/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Ethereal-Email](https://ethereal.email/)
 
 ---
 
-by [Douglas Scaini](https://www.github.com/douglasscaini)
+by [Douglas Scaini](https://www.github.com/douglasscaini) ❤️
